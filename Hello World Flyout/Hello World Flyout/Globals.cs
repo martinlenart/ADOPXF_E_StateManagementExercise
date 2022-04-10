@@ -13,7 +13,7 @@ namespace Hello_World_Flyout
         public static Globals Data => _instance.Value;
         #endregion
 
-         #region Data implementation 
+        #region Data implementation 
         // accessible as Globals.Data.xx 
         public string Message { get; set;}
         public DateTime Time { get; set;}
